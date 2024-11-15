@@ -38,13 +38,17 @@
     <td><input type="checkbox" /></td>
     <td><input type="checkbox" /></td>
     <td><input type="checkbox" /></td>
-  </tr>
-  <tr>
-    <td><input type="checkbox" /></td>
     <td><input type="checkbox" /></td>
     <td><input type="checkbox" /></td>
   </tr>
   <tr>
+    <td><input type="checkbox" /></td>
+    <td><input type="checkbox" /></td>
+    <td><input type="checkbox" /></td>
+    <td><input type="checkbox" /></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" /></td>
     <td><input type="checkbox" /></td>
     <td><input type="checkbox" /></td>
     <td><input type="checkbox" /></td>
@@ -95,7 +99,7 @@
 
   // The user chose a box, check for win, robot turn, check for win
   function handleClickInput(evt) {
-    evt.target.closest('td').innerHTML = HUMAN
+    evt.target.closest('td').innerHTML = ROBOT
     if (hasWin()) {
       return endGame()
     }
