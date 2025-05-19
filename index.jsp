@@ -5,5 +5,8 @@
     <p>
       New paragraph
      </p
+  <p>
+      Roger's paragraph
+     </p
   </body>
 </html>
